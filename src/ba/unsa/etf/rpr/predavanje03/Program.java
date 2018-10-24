@@ -3,7 +3,7 @@ package ba.unsa.etf.rpr.predavanje03;
 public class Program {
 
     public static void main(String[] args) {
-        Predmet matematika = new Predmet("Matematika", 4, 50);
+        /*Predmet matematika = new Predmet("Matematika", 4, 50);
         Student s1 = new Student("Faris", "Music", 18296);
         matematika.upisi(s1);
         Student s2 = new Student("Sulejman", "Tutnjevic", 18290);
@@ -17,6 +17,10 @@ public class Program {
         matematika.ispisi(s2);
         matematika.upisi(new Student("Seudin", "Music", 99999));
         matematika.ispisiSve();
-        System.out.println("\nIme predmeta: "+ matematika.getNazivPredmeta() +"\n"+ "Sifra predmeta: "+ matematika.getSifraPredmeta()+ "\n");
+        System.out.println("\nIme predmeta: "+ matematika.getNazivPredmeta() +"\n"+ "Sifra predmeta: "+ matematika.getSifraPredmeta()+ "\n");*/
+        Predmet matematika = new Predmet("Matematika", 1234, 100);
+        Student faris = new Student("Faris", "Music", 18296);
+        matematika.upisi(faris);
+        System.out.println(matematika.getNizStudenata()[0].getIme());
     }
 }
