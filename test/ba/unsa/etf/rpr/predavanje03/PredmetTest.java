@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class PredmetTest {
 
-    @Disabled
+    @Test
     void upisi() {
         Predmet matematika = new Predmet("Matematika", 1234, 100);
         Student faris = new Student("Faris", "Music", 18296);
@@ -35,7 +35,7 @@ class PredmetTest {
     void ispisiSve() {
     }
 
-    @Disabled
+    @Test
     void getNizStudenata() {
         Predmet matematika = new Predmet("Matematika", 1234, 100);
         Student faris = new Student("Faris", "Music", 18296);

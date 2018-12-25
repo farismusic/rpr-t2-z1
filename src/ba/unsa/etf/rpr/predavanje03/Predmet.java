@@ -4,8 +4,8 @@ public class Predmet {
     private Student[] nizStudenata = new Student[50];
     private String nazivPredmeta;
     private int sifraPredmeta;
-    private static int trenutno = 0;
-    private static int maxStudenata;
+    private  int trenutno = 0;
+    private  int maxStudenata;
 
     public Predmet(String ime, int sifra, int max){
         this.nazivPredmeta=ime;
